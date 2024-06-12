@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "file-indexer"
+version = "0.1.0"
+description = "A tool for indexing large size files and find lines from this files by their number"
+authors = ["ArturZhukovets <bnlvdn7483@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
